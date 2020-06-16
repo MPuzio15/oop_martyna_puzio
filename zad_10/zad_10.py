@@ -7,8 +7,7 @@ funny_function("Mmmmrrp")
 
 '''
 
-def funny_function(imie="Krzys"):
+def funny_function(imie):
 	print(imie)
 
-funny_function("Mmmmrrp")
-funny_function()
+funny_function(imie="Mmmmrrp")

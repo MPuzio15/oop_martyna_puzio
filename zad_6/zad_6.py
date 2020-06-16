@@ -28,9 +28,9 @@ class Ciezarowka(Pojazd):
     pass
 
 
-class Ambulance(Pojazd):
-    pass
-
-
 class PojazdSpecjalny(Pojazd):
     pass
+
+class Ambulance(PojazdSpecjalny):
+    pass
+
